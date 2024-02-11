@@ -46,6 +46,6 @@ With all installed, now run the simulator with the default settings:
 
 Now the gazebo window will be opened
 
-![Gazebo Window](/imgs/gazebo.png "Gazebo screen")
+![Gazebo Window](./imgs/gazebo.png "Gazebo screen")
 
 You can close the Gazebo window, since in this tutorial we will not use it in this section.
