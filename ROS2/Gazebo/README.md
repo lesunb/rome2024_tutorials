@@ -1,4 +1,3 @@
-
 # ROS2
 
 ## ROS2 Distributions
@@ -47,6 +46,6 @@ With all installed, now run the simulator with the default settings:
 
 Now the gazebo window will be opened
 
-imagem gazebo
+![Gazebo Window](/imgs/gazebo.png "Gazebo screen")
 
 You can close the Gazebo window, since in this tutorial we will not use it in this section.
