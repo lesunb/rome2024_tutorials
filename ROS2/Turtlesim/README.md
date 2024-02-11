@@ -98,13 +98,13 @@ Since you’re calling ros2 run on turtlesim again, another turtlesim window wil
 
 ROS 2 breaks complex systems down into many modular nodes. Topics are a vital element of the ROS graph that act as a bus for nodes to exchange messages.
 
-![Example of two nodes communicating with topics](/imgs/topic_intro1.gif "topic communication example")
+![Example of two nodes communicating with topics](./imgs/topic_intro1.gif "topic communication example")
 
 Topics don't need to only be one-to-one communication, it can be one-to-many, many-to-one or many-to-many communication. 
 
 A node may publish data to any number of topics and simultaneously have subscriptions to any number of topics.
 
-![Example of three nodes communicating with topics](/imgs/topic_intro2.gif "topic multiple communication example")
+![Example of three nodes communicating with topics](./imgs/topic_intro2.gif "topic multiple communication example")
 
 
 Topics are one of the main ways in which data is moved between nodes and therefore between different parts of the system.
@@ -227,4 +227,4 @@ The difference here is the removal of the --once option and the addition of the 
 
 And you will see your turtle move in a circular pattern:
 
-![Turtlesim simulator with a circular motion](/imgs/turtlesim_circle.png "simulator doing a circular motion")
+![Turtlesim simulator with a circular motion](./imgs/turtlesim_circle.png "simulator doing a circular motion")
