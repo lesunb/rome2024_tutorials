@@ -53,7 +53,7 @@ all of its links and quite often that would also imply changing the entire contr
 ![fsm example](imgs/fsm.png)
 *Finite state machine for a simple shooting video game.*
 
-In the figure \ref{fig:fsm_game}, we can also infer that FSMs are inherently not scalable. Even simply adding different
+In the figure above, we can also infer that FSMs are inherently not scalable. Even simply adding different
 attack or wander patterns would result in multiple different state transitions with potentially many of them being
 redundant or repetitive. Now imagine the same issue, but in more complex systems with thousands of states and
 transitions and the whole structure becomes unreasonably expensive to maintain.
