@@ -46,14 +46,6 @@ ros-humble-turtlebot4-node \
 ros-humble-turtlebot4-simulator
 ```
 
-5. Install Groot to interact and modify behaviour trees
-
-```bash
-sudo apt install -y git qtbase5-dev libqt5svg5-dev libzmq3-dev libdw-dev cmake
-git clone https://github.com/BehaviorTree/Groot.git
-cd Groot && git submodule update --init --recursive && mkdir build && cd build && cmake .. && make
-```
-
 ## An Overview of Autonomous Navigation
 
 We can think of robotics navigation by using an analogy to how humans navigate. Suppose a person wants to go to their
