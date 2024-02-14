@@ -28,7 +28,7 @@ sudo apt install -y ros-humble-nav2-bringup
 3. Install Gazebo Ignition (Fortress)
 
 ```bash
-sudo apt-get update && sudo apt install -y wget
+sudo apt update
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
 wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 sudo apt update && sudo apt install -y ignition-fortress
