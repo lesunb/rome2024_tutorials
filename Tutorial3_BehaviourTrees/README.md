@@ -1,7 +1,5 @@
 # Behaviour Trees Tutorial
 
-penis penis penis
-
 ## Docs
 
 Please check the [BT.CPP v3 Docs](https://www.behaviortree.dev/docs/3.8/intro) as well as the [Nav2 BT Docs](https://navigation.ros.org/behavior_trees/index.html)
@@ -157,7 +155,7 @@ Once you have created your tree execute it with the following command:
 ros2 launch rome_bt execute_bt.launch.py bt:="full/path/to/tree"
 ```
 
-## Creating a custom node plugins
+## Creating a custom node plugin
 
 We have provided the rome_bt package to make it easier for you to develop and run your trees. Usually to develop nodes 
 we create a header file with all our definitions in /include and the actual code implementation in the /src directory.
