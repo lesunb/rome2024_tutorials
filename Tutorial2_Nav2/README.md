@@ -22,7 +22,7 @@ sudo apt install -y ros-dev-tools
 
 ```bash
 sudo apt install -y ros-humble-navigation2
-sudo apt install -y ros-humble-bringup
+sudo apt install -y ros-humble-nav2-bringup
 ```
 
 3. Install Gazebo Ignition (Fortress)
