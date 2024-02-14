@@ -237,7 +237,7 @@ factory_.registerBuilder<PublisherNode>("Publisher", builder);
 ### Subscriber Node
 ![groot bt 2](imgs/groot_bt2.png)
 
-Now we create a condition node that returns SUCCESS if it receives a message within the specified wait duration, else it returns FAILURE.
+Now we create a condition node that returns SUCCESS if it receives a message within the specified wait duration, else it returns FAILURE. You can also see from the tree that we are using the blackboard to transfer data between the subscriber and publisher nodes. That way the subscriber node first receives a message and passes it to the publisher node.
 
 Header:
 ```c++
