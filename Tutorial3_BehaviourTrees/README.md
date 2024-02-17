@@ -401,3 +401,7 @@ create a custom condition node plugin that checks that topic.
 ### 3. What happens if the robot can't reach its goal? Create a fallback subtree if the robot can't reach the target position in less than a minute.
 
 How can a robot still reach its goal if a given path is obstructed? Think about how a path is constructed in nav2 and try to create a new recovery behavior.
+
+### 4. Try to implement the subscriber node as an asynchronous action instead of a synchronous condition node. How would that change the behaviour tree? Which implementation do you think is better?
+
+Try to implement the SubscriberNode class as a StatefulActionNode.
