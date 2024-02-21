@@ -27,23 +27,23 @@ Your first implementation is not free of uncertainties. Now you will need to imp
 
 1.Check for battery level.
 
-	Make sure the battery is above 15% while executing the mission, else make the robot move to a charging dock.
+Make sure the battery is above 15% while executing the mission, else make the robot move to a charging dock.
 
 2.Estimate time to complete mission and recalculate path.
 
-	Given a path to an objective, create an estimate for the time to complete a mission then choose the path with the fastest time. Hint: Think of the navigation aspect of the mission as a collection of waypoints.
+Given a path to an objective, create an estimate for the time to complete a mission then choose the path with the fastest time. Hint: Think of the navigation aspect of the mission as a collection of waypoints.
 
 3.Use LIDAR to check for obstacles.
 
-	Nav2 already performs some checks on obstacles during navigation. But what if we want to have our own checks, such as predicting if an object will obstruct our path before nav2 notices it. Use LIDAR to check if an object is in a certain distance to your robot during navigation.
+Nav2 already performs some checks on obstacles during navigation. But what if we want to have our own checks, such as predicting if an object will obstruct our path before nav2 notices it. Use LIDAR to check if an object is in a certain distance to your robot during navigation.
 
 4. Use the TB4 camera and OpenCV or DepthAI to detect and identify obstacles.
    
-	Computer vision and AI are an important part of robotics. Try to use an AI algorithm from one of these frameworks to identify an obstacle near the robot.
+Computer vision and AI are an important part of robotics. Try to use an AI algorithm from one of these frameworks to identify an obstacle near the robot.
 
 5. Human in the loop.
 
-	Robots often need to interact with humans in a meaningful way. Try to implement a behaviour that needs human interaction before proceeding with the mission. A possible example is detecting and authenticating a human with a camera or voice recognition.
+Robots often need to interact with humans in a meaningful way. Try to implement a behaviour that needs human interaction before proceeding with the mission. A possible example is detecting and authenticating a human with a camera or voice recognition.
 
 
 
