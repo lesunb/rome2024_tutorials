@@ -35,7 +35,11 @@ BT::NodeStatus GoToPose::onStart()
 
   // Send pose
   done_flag_ = false;
-  action_client_ptr_->async_send_goal(goal_msg, send_goal_options);
+  for(int i=0; i<5; i++){
+    action_client_ptr_->async_send_goal(goal_msg, send_goal_options);
+    sleep(1);
+  }
+
   RCLCPP_INFO(node_ptr_->get_logger(), "Sent Goal to Nav2\n");
   return BT::NodeStatus::RUNNING;
 }
